@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div{
+
+
+    text-align:center;
+    width: 200px;
+    height:200px;
+    background-color: black;
+    position: fixed;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+   animation-name: rnd;
+   animation-duration: 1s;
+   border-radius: 0px 20px 0px 20px ;
+
+
+  
+}
+
+@keyframes rnd{
+from{margin-right: 1000px;
+transform: rotate(360deg);}
+to{border-radius: 20px 0px 20px 0px ;}
+}
+
+
+.div:hover{
+    background-color:rgb(4, 79, 98)
+}
+
+
+h1{
+    color:white;
+    font-size:30px;
+    font-family:monospace;
+    position: relative;
+    margin-top: 50%;
+}
+
+button{
+    margin-top: 400px;
+    background-color: rgb(84, 91, 168);
+    color:whitesmoke;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    font-family:monospace;
+    border-radius: 10px;
+
+}
+
+button:active{
+    background-color: rgba(0, 0, 0, 0.168);
+    border-color: cadetblue;
+}
